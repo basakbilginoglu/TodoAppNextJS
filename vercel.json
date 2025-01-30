@@ -13,7 +13,7 @@
     }
   ],
   "env": {
-    "DATABASE_URL": "@your-database-url",
+    "DATABASE_URL":"@mongodb+srv://codelover:v3wBpj3zLlzFsuii@cluster0.9o6nq.mongodb.net/todos?retryWrites=true&w=majority",
     "PRISMA_GENERATE": "true"
   },
   "buildCommand": "npm run build && npx prisma generate"
