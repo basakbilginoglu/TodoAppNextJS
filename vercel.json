@@ -13,14 +13,11 @@
     }
   ],
   "env": {
-    "DATABASE_URL": "@mongodb+srv://codelover:v3wBpj3zLlzFsuii@cluster0.9o6nq.mongodb.net/todos?retryWrites=true&w=majority"
+    "DATABASE_URL": "@ymongodb+srv://codelover:v3wBpj3zLlzFsuii@cluster0.9o6nq.mongodb.net/todos?retryWrites=true&w=majority"
   },
-  "build": {
-    "env": {
-      "NODE_ENV": "production"
-    },
-    "commands": {
-      "build": "next build && npx prisma generate"
+  "functions": {
+    "api/**/*.ts": {
+      "runtime": "vercel-node@20.x"
     }
   }
 }
