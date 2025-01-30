@@ -4,7 +4,8 @@ Bu uygulamada kullanılan teknolojiler:
 -Prisma
 -Tailwind
 -Zustand
--Mongodb Atlas
+-Mongodb Atlas-
+
 Kullanıcının eklemek istediği todo'ları ekleyebildiği bu todoları listeleyip silebildiği bir  uygulama.
 Kullanıcının eklediği veriler mongodb veritabanına kaydedilmektedir. Uygulama açıldığında veriler veritabanından çekilip ekranda gösterilmektedir.
 Kullanıcı silme ve güncelleme işlemleri de yapabilir.
