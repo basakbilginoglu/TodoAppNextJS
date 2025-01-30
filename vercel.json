@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "env": {
+    "DATABASE_URL": "@mongodb+srv://codelover:v3wBpj3zLlzFsuii@cluster0.9o6nq.mongodb.net/todos?retryWrites=true&w=majority" 
+  },
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "commands": [
+      "npm run build",
+      "npx prisma generate"
+    ]
+  }
+}
