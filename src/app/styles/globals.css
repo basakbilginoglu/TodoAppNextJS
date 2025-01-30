@@ -1,0 +1,4 @@
+/* Tailwind CSS Direktiflerini Dahil Et */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
