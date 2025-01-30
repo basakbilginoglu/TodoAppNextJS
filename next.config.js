@@ -1,4 +1,6 @@
 // next.config.js
-module.exports = {
-  reactStrictMode: true, // React Strict Mode aktif
+// ES modülü kullanarak
+export default {
+  reactStrictMode: true,
+  // diğer konfigürasyonlar
 };
