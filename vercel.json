@@ -1,20 +1,4 @@
 {
   "version": 2,
-  "builds": [
-    {
-     "src": "next.config.js",
-     "framework": "nextjs",
-      "use": "@vercel/next",
-      "config": {
-        "includeFiles": ["./prisma/schema.prisma"]
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ]
- 
+  "framework": "nextjs"
 }
