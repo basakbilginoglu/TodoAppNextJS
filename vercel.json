@@ -15,7 +15,5 @@
       "dest": "/$1"
     }
   ],
-  "env": {
-    "DATABASE_URL": "@mongodb+srv://codelover:v3wBpj3zLlzFsuii@cluster0.9o6nq.mongodb.net/todos"
-  }
+ 
 }
